@@ -124,6 +124,7 @@ select
  where date < '20-12-2021'
  and hometeam = 'Arsenal'
  group by 1;
+ -- 12-20 was Arsenals last game of the year
  
  select 
  hometeam
