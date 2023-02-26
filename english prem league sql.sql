@@ -95,7 +95,7 @@ from soccer21_22
 group by hst, ast
 having avg(hst + ast) > 8.82
 order by 2;
--- More shots on goal doesn't always mean more goals
+-- More shots on goal usually results in more goals being scored, but not for every game
 
 -- Find the team Arsenal average goals per home game
 select 
